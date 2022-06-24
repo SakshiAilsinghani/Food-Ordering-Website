@@ -1,0 +1,130 @@
+*{
+    margin:0%;
+    padding:0%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ .wrapper{
+    /* border:solid 1px black; */ 
+    
+    padding:1%;
+    /* this padding means 1% from four sides up down right left
+    and this padding matlab humne border banaya n toh uske upar neeche right left se space */
+    width:80%; 
+    /* width:80%; */
+    /* humne width 80 ki toh end mein space bachegi toh hum vo space ko divide krna chahte toh hum padding me auto likhenge toh space autonatic divide hogi aur text center me hoga  */
+   
+    margin: 0 auto;
+  
+     /* margin mein pahle jo likha vo top bottom ke liye */
+ }  
+
+
+.menu .wrapper ul{
+    /* pahle aise tha 
+     .home
+     .admin
+     
+     aise  fir vo starting ki dot matlab vo style type ko none kiya*/
+    list-style-type:none;
+
+}
+.menu ul li{
+    display:inline;
+    padding: 1%;
+    
+    
+}
+.menu{
+    text-align:center;
+    /* menu ke neeche border neeche border ke liye bottom-borer */
+    border-bottom: 1px solid grey;
+}
+.menu ul li a{
+    /* ye anvhor tag ka hai matlab jo home ye sab likha h vo anchor ke andar likha n kyunki vo links h toh uske neeche underline hoti
+    toh vo underline remove krne liye text-docoration none kiya */
+    text-decoration: none;
+    color:palevioletred;
+    /* text ko bold krnr kr liye */
+   font-weight:bold;
+}
+.main-section{
+    /* ye class matlab menu (nav bar) ke neeche aur footer class ke upar */
+    /* margin:1% 0; */
+    /* now remove border from wrapper */
+    /* now background color */
+    background-color: whitesmoke;
+    padding:3% 0;
+    
+    
+
+
+}
+/* ABHI KISI B CHEEZ KO HUMKO BOX BANANA HAI TOH USKO WIDTH DENE KA AUR BACKGROUND COLOR DENE KA */
+.main-section .col-4{
+    width:16%;
+    background-color:plum;
+    margin:1%;
+    padding:2%;
+    text-align:center;
+    float:left;
+  
+
+}
+.clearfix{
+    float:none;
+    clear:both;
+}
+/* .main-section .wrapper{
+    padding:1% 0;
+} */
+.tbl-full{
+    width:100%
+}
+.tbl-30{
+    width:30%;
+}
+table tr th{
+    border-bottom:solid 1px black;
+    padding:1%;
+    text-align:left;
+}
+table tr td{
+    padding:1%;
+}
+.btn-primary{
+    background-color: #3742fa;
+    color:wheat;
+    padding:1%;
+    text-decoration:none;
+    font-weight:bold;
+
+}
+.btn-secondary{
+    padding:0.5%;
+    background-color: lightgreen;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+
+
+}
+.btn-danger{
+    padding:0.5%;
+    background-color: lightpink;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+
+
+}
+.login{
+    width:20%;
+    border: 1px solid grey;
+    margin: 5% auto;
+    padding: 2%;
+
+
+
+}
+
